@@ -1,0 +1,40 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+body
+{
+	background-color: #EB5F23;
+}
+
+#mainSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 100vh;
+}
+
+.btn1
+{
+	max-width: 80vw;
+	height: auto;
+	width: 600px;
+	transition-duration: 1.5s;
+	transition-property: transform;
+}
+.rotate
+{
+	transform: rotate(360deg);
+}
+
+#edit
+{
+	position:absolute;
+	bottom: 5vh;
+	color: rgb(0, 0, 0,0.7);
+	font-style: italic;
+}
